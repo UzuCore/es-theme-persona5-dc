@@ -1,0 +1,27 @@
+<!--
+   Theme : Persona 5
+   creator : 우우욱
+   version: 1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <!-- 타입5 시계 + 배터리 -->
+   <view name="screen">
+      <text name="clock">
+         <pos>0.9375 0.01875</pos>
+         <color>FFFFFFFF</color>
+      </text>
+      <batteryIndicator name="batteryIndicator">
+         <pos>0.88125 0.0125</pos>
+         <networkIcon>./asset/images/indicator/network_empty.png</networkIcon>
+      </batteryIndicator>
+   </view>
+   <view name="system, basic, detailed, video">
+      <image name="bg_clock" extra="true">
+         <pos>0.9375 0.05</pos>
+      </image>
+   </view>
+
+</theme>
